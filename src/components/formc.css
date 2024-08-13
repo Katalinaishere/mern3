@@ -1,0 +1,39 @@
+.form-container {
+    background: white;
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 3px );
+-webkit-backdrop-filter: blur( 3px );
+border-radius: 10px;
+opacity: 85%;
+padding: 15px; 
+position: relative;
+margin: auto;
+margin-top: 5px;
+font-size: 0.65rem; 
+
+}
+.form-container .form-label,
+.form-container .form-control {
+  font-size: 0.85rem; 
+  }
+
+.form-container .form-control {
+  padding: 5px 10px; /* Reduced padding inside input fields */
+}
+  
+  .sphere {
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(100, 100, 255, 0.3); /* Light blue, adjust color */
+  }
+  
+  .sphere1 {
+   
+    border-radius: 33% 67% 44% 56% / 49% 44% 56% 51%
+  }
+  
+  .sphere2 {
+    
+    border-radius: 45% 55% 54% 34% / 53% 23% 45% 48%
+  }
+  
